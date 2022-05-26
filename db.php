@@ -37,10 +37,10 @@ var_dump($francesco->payment_method_avaible);
 
 echo "<h2> set avaible period Mingo</h2>";
 $mingo->setAvaible();
-var_dump($mingo->avaible);
+var_dump($mingo->period_avaible_start,$mingo->period_avaible_end,$mingo->avaible);
 
 echo "<h2> set avaible period Stone</h2>";
 $stone->setAvaible();
-var_dump($stone->avaible);
+var_dump($stone->period_avaible_start,$stone->period_avaible_end,$stone->avaible);
 
 
