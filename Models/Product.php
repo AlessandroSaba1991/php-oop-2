@@ -1,14 +1,14 @@
 <?php
 
 class Product{
-    protected $code;
-    protected $name;
-    protected $genre;
-    protected $price;
-    protected $description;
-    protected $sales;
-    protected $avaible_sales;
-    protected $image;
+    public $code;
+    public $name;
+    public $genre;
+    public $price;
+    public $description;
+    public $sales;
+    public $avaible_sales;
+    public $image;
     public function __construct(Int $code,String $name, String $genre,Int $price,String $description,Int $sales,Bool $avaible_sales,String $image) {
         $this->code = $code;
         $this->name = $name;
