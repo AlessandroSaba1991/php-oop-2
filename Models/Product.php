@@ -19,4 +19,12 @@ class Product{
         $this->avaible_sales = $avaible_sales;
         $this->image = $image;
     }
+    public function setSales(User $user)
+    {
+        if($user->is_registered){
+            $this->sales = $this->price * 0.2;
+        } else {
+            $this->sales = 0;
+        }
+    }
 }

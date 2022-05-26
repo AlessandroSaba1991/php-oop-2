@@ -18,3 +18,13 @@ public function functionName( MyClass $variable, String $variable2, Int $variabl
 # Implementazione
 } 
 */
+require_once __DIR__ . '/db.php';
+/* include __DIR__ . '/layout/head.php';
+?>
+
+    <main>
+        <?php include __DIR__ . '/partials/jumbo.index.php' ?>
+    </main>
+   
+<?php
+include __DIR__ . '/layout/footer.php'; */
