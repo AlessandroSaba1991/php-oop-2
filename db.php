@@ -17,6 +17,8 @@ $products = [
     new Game(112, 'Bounce', 'game', 30, 'lorem', 'https://picsum.photos/200', 'Cat', 'plastic', 'small', 'ball', 'blue'),
 ];
 
+
+
 /* 
         TEST EXCEPTION ON SETSALES OG PRODUCT
 
